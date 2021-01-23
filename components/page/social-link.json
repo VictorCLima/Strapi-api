@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLink",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Dribble",
+        "Linkedin",
+        "Facebook"
+      ],
+      "default": "Twitter",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

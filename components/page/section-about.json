@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "SectionAbout",
+    "icon": "laugh"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "unique": true,
+      "collection": "author"
+    }
+  }
+}
