@@ -1,8 +1,8 @@
 {
   "collectionName": "components_page_reviews",
   "info": {
-    "name": "reviews",
-    "icon": "star-half"
+    "name": "review",
+    "icon": "allergies"
   },
   "options": {},
   "attributes": {
@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "review": {
+    "text": {
       "type": "text",
       "required": true
     },
@@ -21,7 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

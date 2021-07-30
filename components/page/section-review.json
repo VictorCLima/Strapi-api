@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_section_reviews",
   "info": {
-    "name": "SectionReviews",
-    "icon": "star"
+    "name": "SectionReview",
+    "icon": "book-reader",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,9 +14,9 @@
     "reviews": {
       "type": "component",
       "repeatable": true,
-      "component": "page.reviews",
-      "min": 4,
-      "required": true
+      "component": "page.review",
+      "required": true,
+      "min": 4
     }
   }
 }
